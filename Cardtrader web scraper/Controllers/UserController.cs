@@ -1,5 +1,6 @@
 ﻿using Cardtrader_web_scraper.Model;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
 
 namespace Cardtrader_web_scraper.Controllers
 {
@@ -10,7 +11,7 @@ namespace Cardtrader_web_scraper.Controllers
         // Constructor
         public UserController()
         {
-            
+            // Constructor logic, if any
         }
 
         #region User Actions
